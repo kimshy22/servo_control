@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from servo_control/srv/SetServoAngle.srv
+// generated code does not contain a copyright notice
+
+
+module servo_control {
+  module srv {
+    struct SetServoAngle_Request {
+      int32 angle;
+    };
+    struct SetServoAngle_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

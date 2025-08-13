@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "servo_control__py",
+		"source" : "/home/kimani21/servo_ws/build/servo_control/servo_control__py"
+	}
+}

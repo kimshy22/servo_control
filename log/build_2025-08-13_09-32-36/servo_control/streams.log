@@ -1,0 +1,257 @@
+[0.093s] Invoking command in '/home/kimani21/servo_ws/build/servo_control': AMENT_PREFIX_PATH=/home/kimani21/servo_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kimani21/servo_ws/install/serial:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/kimani21/servo_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/kimani21/servo_ws/src/servo_control -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/kimani21/servo_ws/install/servo_control
+[0.293s] -- The C compiler identification is GNU 11.4.0
+[0.838s] -- The CXX compiler identification is GNU 11.4.0
+[1.311s] -- Detecting C compiler ABI info
+[1.556s] -- Detecting C compiler ABI info - done
+[1.565s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.565s] -- Detecting C compile features
+[1.566s] -- Detecting C compile features - done
+[1.569s] -- Detecting CXX compiler ABI info
+[1.851s] -- Detecting CXX compiler ABI info - done
+[1.860s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.860s] -- Detecting CXX compile features
+[1.861s] -- Detecting CXX compile features - done
+[1.873s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.124s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.354s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[2.684s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.711s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.749s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.797s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.855s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.075s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.094s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.612s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[6.227s] -- Found FastRTPS: /opt/ros/humble/include  
+[8.969s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.013s] -- Looking for pthread.h
+[9.246s] -- Looking for pthread.h - found
+[9.247s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.486s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[9.487s] -- Found Threads: TRUE  
+[9.656s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[9.689s] -- Found serial: 1.2.1 (/home/kimani21/servo_ws/install/serial/share/serial/cmake)
+[10.057s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[10.584s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[10.755s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.918s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[10.931s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[11.399s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[11.399s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[11.399s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[11.399s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[11.432s] -- Found PythonExtra: .so  
+[11.568s] -- Configuring done
+[11.648s] -- Generating done
+[11.653s] [33mCMake Warning:
+[11.653s]   Manually-specified variables were not used by the project:
+[11.653s] 
+[11.653s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[11.653s]     CATKIN_SYMLINK_INSTALL
+[11.653s] 
+[11.653s] [0m
+[11.665s] -- Build files have been written to: /home/kimani21/servo_ws/build/servo_control
+[11.680s] Invoked command in '/home/kimani21/servo_ws/build/servo_control' returned '0': AMENT_PREFIX_PATH=/home/kimani21/servo_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kimani21/servo_ws/install/serial:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/kimani21/servo_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/kimani21/servo_ws/src/servo_control -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/kimani21/servo_ws/install/servo_control
+[11.684s] Invoking command in '/home/kimani21/servo_ws/build/servo_control': AMENT_PREFIX_PATH=/home/kimani21/servo_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kimani21/servo_ws/install/serial:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/kimani21/servo_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/kimani21/servo_ws/build/servo_control -- -j8 -l8
+[11.775s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[11.802s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[11.823s] [  6%] Built target ament_cmake_python_copy_servo_control
+[12.206s] [  6%] Built target servo_control__cpp
+[12.251s] [  9%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[12.252s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[12.255s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[12.279s] running egg_info
+[12.279s] creating servo_control.egg-info
+[12.280s] writing servo_control.egg-info/PKG-INFO
+[12.280s] writing dependency_links to servo_control.egg-info/dependency_links.txt
+[12.281s] writing top-level names to servo_control.egg-info/top_level.txt
+[12.281s] writing manifest file 'servo_control.egg-info/SOURCES.txt'
+[12.288s] reading manifest file 'servo_control.egg-info/SOURCES.txt'
+[12.289s] writing manifest file 'servo_control.egg-info/SOURCES.txt'
+[12.319s] [ 18%] [32mBuilding C object CMakeFiles/servo_control__rosidl_generator_c.dir/rosidl_generator_c/servo_control/srv/detail/set_servo_angle__functions.c.o[0m
+[12.371s] [ 18%] Built target ament_cmake_python_build_servo_control_egg
+[12.473s] [ 21%] [32m[1mLinking C shared library libservo_control__rosidl_generator_c.so[0m
+[12.713s] [ 21%] Built target servo_control__rosidl_generator_c
+[12.748s] [ 24%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[12.754s] [ 27%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[12.756s] [ 30%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[12.796s] [ 33%] [32mBuilding CXX object CMakeFiles/servo_control__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/servo_control/srv/set_servo_angle__type_support.cpp.o[0m
+[12.829s] [ 36%] [32mBuilding CXX object CMakeFiles/servo_control__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/servo_control/srv/detail/set_servo_angle__type_support.cpp.o[0m
+[12.881s] [ 39%] [32mBuilding CXX object CMakeFiles/servo_control__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/servo_control/srv/detail/dds_fastrtps/set_servo_angle__type_support.cpp.o[0m
+[13.309s] [ 42%] [32mBuilding CXX object CMakeFiles/servo_control__rosidl_typesupport_c.dir/rosidl_typesupport_c/servo_control/srv/set_servo_angle__type_support.cpp.o[0m
+[13.388s] [ 45%] [32mBuilding CXX object CMakeFiles/servo_control__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/servo_control/srv/detail/set_servo_angle__type_support_c.cpp.o[0m
+[13.402s] [ 48%] [32m[1mLinking CXX shared library libservo_control__rosidl_typesupport_c.so[0m
+[13.425s] [ 51%] [32mBuilding C object CMakeFiles/servo_control__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/servo_control/srv/detail/set_servo_angle__type_support.c.o[0m
+[13.452s] [ 54%] [32m[1mLinking CXX shared library libservo_control__rosidl_typesupport_cpp.so[0m
+[13.536s] [ 57%] [32m[1mLinking C shared library libservo_control__rosidl_typesupport_introspection_c.so[0m
+[13.696s] [ 57%] Built target servo_control__rosidl_typesupport_c
+[13.735s] [ 57%] Built target servo_control__rosidl_typesupport_cpp
+[13.760s] [ 60%] [32m[1mLinking CXX shared library libservo_control__rosidl_typesupport_introspection_cpp.so[0m
+[13.780s] [ 60%] Built target servo_control__rosidl_typesupport_introspection_c
+[13.799s] [ 63%] [32mBuilding CXX object CMakeFiles/servo_service_node.dir/src/servo_service_node.cpp.o[0m
+[13.866s] [ 66%] [32m[1mLinking CXX shared library libservo_control__rosidl_typesupport_fastrtps_cpp.so[0m
+[14.036s] [ 66%] Built target servo_control__rosidl_typesupport_introspection_cpp
+[14.110s] [ 69%] [32m[1mLinking CXX shared library libservo_control__rosidl_typesupport_fastrtps_c.so[0m
+[14.141s] [ 69%] Built target servo_control__rosidl_typesupport_fastrtps_cpp
+[14.392s] [ 69%] Built target servo_control__rosidl_typesupport_fastrtps_c
+[14.442s] [ 69%] Built target servo_control
+[14.499s] [ 72%] [34m[1mGenerating Python code for ROS interfaces[0m
+[14.995s] [ 72%] Built target servo_control__py
+[15.047s] [ 75%] [32mBuilding C object CMakeFiles/servo_control__rosidl_generator_py.dir/rosidl_generator_py/servo_control/srv/_set_servo_angle_s.c.o[0m
+[15.256s] [ 78%] [32m[1mLinking C shared library rosidl_generator_py/servo_control/libservo_control__rosidl_generator_py.so[0m
+[15.434s] [ 78%] Built target servo_control__rosidl_generator_py
+[15.492s] [ 81%] [32mBuilding C object CMakeFiles/servo_control__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/servo_control/_servo_control_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[15.492s] [ 84%] [32mBuilding C object CMakeFiles/servo_control__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/servo_control/_servo_control_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[15.500s] [ 87%] [32mBuilding C object CMakeFiles/servo_control__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/servo_control/_servo_control_s.ep.rosidl_typesupport_c.c.o[0m
+[15.689s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/servo_control/servo_control_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[15.705s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/servo_control/servo_control_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[15.714s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/servo_control/servo_control_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[15.866s] [ 96%] Built target servo_control__rosidl_typesupport_introspection_c__pyext
+[15.868s] [ 96%] Built target servo_control__rosidl_typesupport_fastrtps_c__pyext
+[15.907s] [ 96%] Built target servo_control__rosidl_typesupport_c__pyext
+[18.890s] [100%] [32m[1mLinking CXX executable servo_service_node[0m
+[19.283s] [100%] Built target servo_service_node
+[19.307s] Invoked command in '/home/kimani21/servo_ws/build/servo_control' returned '0': AMENT_PREFIX_PATH=/home/kimani21/servo_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kimani21/servo_ws/install/serial:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/kimani21/servo_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/kimani21/servo_ws/build/servo_control -- -j8 -l8
+[19.311s] Invoking command in '/home/kimani21/servo_ws/build/servo_control': AMENT_PREFIX_PATH=/home/kimani21/servo_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kimani21/servo_ws/install/serial:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/kimani21/servo_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/kimani21/servo_ws/build/servo_control
+[19.328s] -- Install configuration: ""
+[19.330s] -- Installing: /home/kimani21/servo_ws/install/servo_control/share/ament_index/resource_index/rosidl_interfaces/servo_control
+[19.330s] -- Installing: /home/kimani21/servo_ws/install/servo_control/include/servo_control/servo_control
+[19.331s] -- Installing: /home/kimani21/servo_ws/install/servo_control/include/servo_control/servo_control/msg
+[19.331s] -- Installing: /home/kimani21/servo_ws/install/servo_control/include/servo_control/servo_control/msg/rosidl_generator_c__visibility_control.h
+[19.332s] -- Installing: /home/kimani21/servo_ws/install/servo_control/include/servo_control/servo_control/srv
+[19.332s] -- Installing: /home/kimani21/servo_ws/install/servo_control/include/servo_control/servo_control/srv/detail
+[19.332s] -- Installing: /home/kimani21/servo_ws/install/servo_control/include/servo_control/servo_control/srv/detail/set_servo_angle__type_support.h
+[19.333s] -- Installing: /home/kimani21/servo_ws/install/servo_control/include/servo_control/servo_control/srv/detail/set_servo_angle__functions.h
+[19.333s] -- Installing: /home/kimani21/servo_ws/install/servo_control/include/servo_control/servo_control/srv/detail/set_servo_angle__struct.h
+[19.333s] -- Installing: /home/kimani21/servo_ws/install/servo_control/include/servo_control/servo_control/srv/detail/set_servo_angle__functions.c
+[19.333s] -- Installing: /home/kimani21/servo_ws/install/servo_control/include/servo_control/servo_control/srv/set_servo_angle.h
+[19.334s] -- Installing: /home/kimani21/servo_ws/install/servo_control/share/servo_control/environment/library_path.sh
+[19.335s] -- Installing: /home/kimani21/servo_ws/install/servo_control/share/servo_control/environment/library_path.dsv
+[19.335s] -- Installing: /home/kimani21/servo_ws/install/servo_control/lib/libservo_control__rosidl_generator_c.so
+[19.336s] -- Set runtime path of "/home/kimani21/servo_ws/install/servo_control/lib/libservo_control__rosidl_generator_c.so" to ""
+[19.336s] -- Up-to-date: /home/kimani21/servo_ws/install/servo_control/include/servo_control/servo_control
+[19.336s] -- Up-to-date: /home/kimani21/servo_ws/install/servo_control/include/servo_control/servo_control/msg
+[19.337s] -- Installing: /home/kimani21/servo_ws/install/servo_control/include/servo_control/servo_control/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[19.337s] -- Up-to-date: /home/kimani21/servo_ws/install/servo_control/include/servo_control/servo_control/srv
+[19.337s] -- Up-to-date: /home/kimani21/servo_ws/install/servo_control/include/servo_control/servo_control/srv/detail
+[19.337s] -- Installing: /home/kimani21/servo_ws/install/servo_control/include/servo_control/servo_control/srv/detail/set_servo_angle__rosidl_typesupport_fastrtps_c.h
+[19.337s] -- Installing: /home/kimani21/servo_ws/install/servo_control/lib/libservo_control__rosidl_typesupport_fastrtps_c.so
+[19.337s] -- Set runtime path of "/home/kimani21/servo_ws/install/servo_control/lib/libservo_control__rosidl_typesupport_fastrtps_c.so" to ""
+[19.338s] -- Up-to-date: /home/kimani21/servo_ws/install/servo_control/include/servo_control/servo_control
+[19.338s] -- Up-to-date: /home/kimani21/servo_ws/install/servo_control/include/servo_control/servo_control/msg
+[19.338s] -- Installing: /home/kimani21/servo_ws/install/servo_control/include/servo_control/servo_control/msg/rosidl_generator_cpp__visibility_control.hpp
+[19.338s] -- Up-to-date: /home/kimani21/servo_ws/install/servo_control/include/servo_control/servo_control/srv
+[19.338s] -- Up-to-date: /home/kimani21/servo_ws/install/servo_control/include/servo_control/servo_control/srv/detail
+[19.338s] -- Installing: /home/kimani21/servo_ws/install/servo_control/include/servo_control/servo_control/srv/detail/set_servo_angle__traits.hpp
+[19.339s] -- Installing: /home/kimani21/servo_ws/install/servo_control/include/servo_control/servo_control/srv/detail/set_servo_angle__builder.hpp
+[19.339s] -- Installing: /home/kimani21/servo_ws/install/servo_control/include/servo_control/servo_control/srv/detail/set_servo_angle__struct.hpp
+[19.339s] -- Installing: /home/kimani21/servo_ws/install/servo_control/include/servo_control/servo_control/srv/detail/set_servo_angle__type_support.hpp
+[19.339s] -- Installing: /home/kimani21/servo_ws/install/servo_control/include/servo_control/servo_control/srv/set_servo_angle.hpp
+[19.339s] -- Up-to-date: /home/kimani21/servo_ws/install/servo_control/include/servo_control/servo_control
+[19.339s] -- Up-to-date: /home/kimani21/servo_ws/install/servo_control/include/servo_control/servo_control/msg
+[19.340s] -- Installing: /home/kimani21/servo_ws/install/servo_control/include/servo_control/servo_control/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[19.340s] -- Up-to-date: /home/kimani21/servo_ws/install/servo_control/include/servo_control/servo_control/srv
+[19.340s] -- Up-to-date: /home/kimani21/servo_ws/install/servo_control/include/servo_control/servo_control/srv/detail
+[19.340s] -- Installing: /home/kimani21/servo_ws/install/servo_control/include/servo_control/servo_control/srv/detail/set_servo_angle__rosidl_typesupport_fastrtps_cpp.hpp
+[19.340s] -- Installing: /home/kimani21/servo_ws/install/servo_control/include/servo_control/servo_control/srv/detail/dds_fastrtps
+[19.340s] -- Installing: /home/kimani21/servo_ws/install/servo_control/lib/libservo_control__rosidl_typesupport_fastrtps_cpp.so
+[19.341s] -- Set runtime path of "/home/kimani21/servo_ws/install/servo_control/lib/libservo_control__rosidl_typesupport_fastrtps_cpp.so" to ""
+[19.341s] -- Up-to-date: /home/kimani21/servo_ws/install/servo_control/include/servo_control/servo_control
+[19.341s] -- Up-to-date: /home/kimani21/servo_ws/install/servo_control/include/servo_control/servo_control/msg
+[19.342s] -- Installing: /home/kimani21/servo_ws/install/servo_control/include/servo_control/servo_control/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[19.342s] -- Up-to-date: /home/kimani21/servo_ws/install/servo_control/include/servo_control/servo_control/srv
+[19.342s] -- Up-to-date: /home/kimani21/servo_ws/install/servo_control/include/servo_control/servo_control/srv/detail
+[19.342s] -- Installing: /home/kimani21/servo_ws/install/servo_control/include/servo_control/servo_control/srv/detail/set_servo_angle__type_support.c
+[19.342s] -- Installing: /home/kimani21/servo_ws/install/servo_control/include/servo_control/servo_control/srv/detail/set_servo_angle__rosidl_typesupport_introspection_c.h
+[19.342s] -- Installing: /home/kimani21/servo_ws/install/servo_control/lib/libservo_control__rosidl_typesupport_introspection_c.so
+[19.343s] -- Set runtime path of "/home/kimani21/servo_ws/install/servo_control/lib/libservo_control__rosidl_typesupport_introspection_c.so" to ""
+[19.343s] -- Installing: /home/kimani21/servo_ws/install/servo_control/lib/libservo_control__rosidl_typesupport_c.so
+[19.344s] -- Set runtime path of "/home/kimani21/servo_ws/install/servo_control/lib/libservo_control__rosidl_typesupport_c.so" to ""
+[19.344s] -- Up-to-date: /home/kimani21/servo_ws/install/servo_control/include/servo_control/servo_control
+[19.344s] -- Up-to-date: /home/kimani21/servo_ws/install/servo_control/include/servo_control/servo_control/srv
+[19.344s] -- Up-to-date: /home/kimani21/servo_ws/install/servo_control/include/servo_control/servo_control/srv/detail
+[19.344s] -- Installing: /home/kimani21/servo_ws/install/servo_control/include/servo_control/servo_control/srv/detail/set_servo_angle__rosidl_typesupport_introspection_cpp.hpp
+[19.344s] -- Installing: /home/kimani21/servo_ws/install/servo_control/include/servo_control/servo_control/srv/detail/set_servo_angle__type_support.cpp
+[19.345s] -- Installing: /home/kimani21/servo_ws/install/servo_control/lib/libservo_control__rosidl_typesupport_introspection_cpp.so
+[19.345s] -- Set runtime path of "/home/kimani21/servo_ws/install/servo_control/lib/libservo_control__rosidl_typesupport_introspection_cpp.so" to ""
+[19.345s] -- Installing: /home/kimani21/servo_ws/install/servo_control/lib/libservo_control__rosidl_typesupport_cpp.so
+[19.346s] -- Set runtime path of "/home/kimani21/servo_ws/install/servo_control/lib/libservo_control__rosidl_typesupport_cpp.so" to ""
+[19.346s] -- Installing: /home/kimani21/servo_ws/install/servo_control/share/servo_control/environment/pythonpath.sh
+[19.347s] -- Installing: /home/kimani21/servo_ws/install/servo_control/share/servo_control/environment/pythonpath.dsv
+[19.347s] -- Installing: /home/kimani21/servo_ws/install/servo_control/local/lib/python3.10/dist-packages/servo_control-0.0.1-py3.10.egg-info
+[19.349s] -- Installing: /home/kimani21/servo_ws/install/servo_control/local/lib/python3.10/dist-packages/servo_control-0.0.1-py3.10.egg-info/SOURCES.txt
+[19.349s] -- Installing: /home/kimani21/servo_ws/install/servo_control/local/lib/python3.10/dist-packages/servo_control-0.0.1-py3.10.egg-info/top_level.txt
+[19.349s] -- Installing: /home/kimani21/servo_ws/install/servo_control/local/lib/python3.10/dist-packages/servo_control-0.0.1-py3.10.egg-info/PKG-INFO
+[19.349s] -- Installing: /home/kimani21/servo_ws/install/servo_control/local/lib/python3.10/dist-packages/servo_control-0.0.1-py3.10.egg-info/dependency_links.txt
+[19.350s] -- Installing: /home/kimani21/servo_ws/install/servo_control/local/lib/python3.10/dist-packages/servo_control
+[19.350s] -- Installing: /home/kimani21/servo_ws/install/servo_control/local/lib/python3.10/dist-packages/servo_control/servo_control_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[19.350s] -- Installing: /home/kimani21/servo_ws/install/servo_control/local/lib/python3.10/dist-packages/servo_control/_servo_control_s.ep.rosidl_typesupport_fastrtps_c.c
+[19.351s] -- Installing: /home/kimani21/servo_ws/install/servo_control/local/lib/python3.10/dist-packages/servo_control/servo_control_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[19.351s] -- Installing: /home/kimani21/servo_ws/install/servo_control/local/lib/python3.10/dist-packages/servo_control/libservo_control__rosidl_generator_py.so
+[19.351s] -- Installing: /home/kimani21/servo_ws/install/servo_control/local/lib/python3.10/dist-packages/servo_control/__init__.py
+[19.352s] -- Installing: /home/kimani21/servo_ws/install/servo_control/local/lib/python3.10/dist-packages/servo_control/_servo_control_s.ep.rosidl_typesupport_c.c
+[19.352s] -- Installing: /home/kimani21/servo_ws/install/servo_control/local/lib/python3.10/dist-packages/servo_control/_servo_control_s.ep.rosidl_typesupport_introspection_c.c
+[19.352s] -- Installing: /home/kimani21/servo_ws/install/servo_control/local/lib/python3.10/dist-packages/servo_control/servo_control_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[19.353s] -- Installing: /home/kimani21/servo_ws/install/servo_control/local/lib/python3.10/dist-packages/servo_control/srv
+[19.353s] -- Installing: /home/kimani21/servo_ws/install/servo_control/local/lib/python3.10/dist-packages/servo_control/srv/__init__.py
+[19.353s] -- Installing: /home/kimani21/servo_ws/install/servo_control/local/lib/python3.10/dist-packages/servo_control/srv/_set_servo_angle.py
+[19.353s] -- Installing: /home/kimani21/servo_ws/install/servo_control/local/lib/python3.10/dist-packages/servo_control/srv/_set_servo_angle_s.c
+[19.410s] Listing '/home/kimani21/servo_ws/install/servo_control/local/lib/python3.10/dist-packages/servo_control'...
+[19.410s] Compiling '/home/kimani21/servo_ws/install/servo_control/local/lib/python3.10/dist-packages/servo_control/__init__.py'...
+[19.410s] Listing '/home/kimani21/servo_ws/install/servo_control/local/lib/python3.10/dist-packages/servo_control/srv'...
+[19.410s] Compiling '/home/kimani21/servo_ws/install/servo_control/local/lib/python3.10/dist-packages/servo_control/srv/__init__.py'...
+[19.410s] Compiling '/home/kimani21/servo_ws/install/servo_control/local/lib/python3.10/dist-packages/servo_control/srv/_set_servo_angle.py'...
+[19.417s] -- Installing: /home/kimani21/servo_ws/install/servo_control/local/lib/python3.10/dist-packages/servo_control/servo_control_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[19.418s] -- Set runtime path of "/home/kimani21/servo_ws/install/servo_control/local/lib/python3.10/dist-packages/servo_control/servo_control_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[19.418s] -- Installing: /home/kimani21/servo_ws/install/servo_control/local/lib/python3.10/dist-packages/servo_control/servo_control_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[19.419s] -- Set runtime path of "/home/kimani21/servo_ws/install/servo_control/local/lib/python3.10/dist-packages/servo_control/servo_control_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[19.420s] -- Installing: /home/kimani21/servo_ws/install/servo_control/local/lib/python3.10/dist-packages/servo_control/servo_control_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[19.420s] -- Set runtime path of "/home/kimani21/servo_ws/install/servo_control/local/lib/python3.10/dist-packages/servo_control/servo_control_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[19.421s] -- Installing: /home/kimani21/servo_ws/install/servo_control/lib/libservo_control__rosidl_generator_py.so
+[19.421s] -- Set runtime path of "/home/kimani21/servo_ws/install/servo_control/lib/libservo_control__rosidl_generator_py.so" to ""
+[19.422s] -- Installing: /home/kimani21/servo_ws/install/servo_control/share/servo_control/srv/SetServoAngle.idl
+[19.423s] -- Installing: /home/kimani21/servo_ws/install/servo_control/share/servo_control/srv/SetServoAngle.srv
+[19.423s] -- Installing: /home/kimani21/servo_ws/install/servo_control/share/servo_control/srv/SetServoAngle_Request.msg
+[19.423s] -- Installing: /home/kimani21/servo_ws/install/servo_control/share/servo_control/srv/SetServoAngle_Response.msg
+[19.424s] -- Installing: /home/kimani21/servo_ws/install/servo_control/lib/servo_control/servo_service_node
+[19.426s] -- Set runtime path of "/home/kimani21/servo_ws/install/servo_control/lib/servo_control/servo_service_node" to ""
+[19.426s] -- Installing: /home/kimani21/servo_ws/install/servo_control/share/ament_index/resource_index/package_run_dependencies/servo_control
+[19.427s] -- Installing: /home/kimani21/servo_ws/install/servo_control/share/ament_index/resource_index/parent_prefix_path/servo_control
+[19.428s] -- Installing: /home/kimani21/servo_ws/install/servo_control/share/servo_control/environment/ament_prefix_path.sh
+[19.428s] -- Installing: /home/kimani21/servo_ws/install/servo_control/share/servo_control/environment/ament_prefix_path.dsv
+[19.428s] -- Installing: /home/kimani21/servo_ws/install/servo_control/share/servo_control/environment/path.sh
+[19.429s] -- Installing: /home/kimani21/servo_ws/install/servo_control/share/servo_control/environment/path.dsv
+[19.429s] -- Installing: /home/kimani21/servo_ws/install/servo_control/share/servo_control/local_setup.bash
+[19.429s] -- Installing: /home/kimani21/servo_ws/install/servo_control/share/servo_control/local_setup.sh
+[19.429s] -- Installing: /home/kimani21/servo_ws/install/servo_control/share/servo_control/local_setup.zsh
+[19.429s] -- Installing: /home/kimani21/servo_ws/install/servo_control/share/servo_control/local_setup.dsv
+[19.430s] -- Installing: /home/kimani21/servo_ws/install/servo_control/share/servo_control/package.dsv
+[19.431s] -- Installing: /home/kimani21/servo_ws/install/servo_control/share/ament_index/resource_index/packages/servo_control
+[19.432s] -- Installing: /home/kimani21/servo_ws/install/servo_control/share/servo_control/cmake/export_servo_control__rosidl_generator_cExport.cmake
+[19.432s] -- Installing: /home/kimani21/servo_ws/install/servo_control/share/servo_control/cmake/export_servo_control__rosidl_generator_cExport-noconfig.cmake
+[19.433s] -- Installing: /home/kimani21/servo_ws/install/servo_control/share/servo_control/cmake/export_servo_control__rosidl_typesupport_fastrtps_cExport.cmake
+[19.433s] -- Installing: /home/kimani21/servo_ws/install/servo_control/share/servo_control/cmake/export_servo_control__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[19.433s] -- Installing: /home/kimani21/servo_ws/install/servo_control/share/servo_control/cmake/export_servo_control__rosidl_generator_cppExport.cmake
+[19.433s] -- Installing: /home/kimani21/servo_ws/install/servo_control/share/servo_control/cmake/export_servo_control__rosidl_typesupport_fastrtps_cppExport.cmake
+[19.433s] -- Installing: /home/kimani21/servo_ws/install/servo_control/share/servo_control/cmake/export_servo_control__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[19.434s] -- Installing: /home/kimani21/servo_ws/install/servo_control/share/servo_control/cmake/servo_control__rosidl_typesupport_introspection_cExport.cmake
+[19.434s] -- Installing: /home/kimani21/servo_ws/install/servo_control/share/servo_control/cmake/servo_control__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[19.434s] -- Installing: /home/kimani21/servo_ws/install/servo_control/share/servo_control/cmake/servo_control__rosidl_typesupport_cExport.cmake
+[19.435s] -- Installing: /home/kimani21/servo_ws/install/servo_control/share/servo_control/cmake/servo_control__rosidl_typesupport_cExport-noconfig.cmake
+[19.435s] -- Installing: /home/kimani21/servo_ws/install/servo_control/share/servo_control/cmake/servo_control__rosidl_typesupport_introspection_cppExport.cmake
+[19.436s] -- Installing: /home/kimani21/servo_ws/install/servo_control/share/servo_control/cmake/servo_control__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[19.436s] -- Installing: /home/kimani21/servo_ws/install/servo_control/share/servo_control/cmake/servo_control__rosidl_typesupport_cppExport.cmake
+[19.436s] -- Installing: /home/kimani21/servo_ws/install/servo_control/share/servo_control/cmake/servo_control__rosidl_typesupport_cppExport-noconfig.cmake
+[19.437s] -- Installing: /home/kimani21/servo_ws/install/servo_control/share/servo_control/cmake/export_servo_control__rosidl_generator_pyExport.cmake
+[19.437s] -- Installing: /home/kimani21/servo_ws/install/servo_control/share/servo_control/cmake/export_servo_control__rosidl_generator_pyExport-noconfig.cmake
+[19.438s] -- Installing: /home/kimani21/servo_ws/install/servo_control/share/servo_control/cmake/rosidl_cmake-extras.cmake
+[19.438s] -- Installing: /home/kimani21/servo_ws/install/servo_control/share/servo_control/cmake/ament_cmake_export_include_directories-extras.cmake
+[19.438s] -- Installing: /home/kimani21/servo_ws/install/servo_control/share/servo_control/cmake/ament_cmake_export_libraries-extras.cmake
+[19.438s] -- Installing: /home/kimani21/servo_ws/install/servo_control/share/servo_control/cmake/ament_cmake_export_targets-extras.cmake
+[19.439s] -- Installing: /home/kimani21/servo_ws/install/servo_control/share/servo_control/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[19.439s] -- Installing: /home/kimani21/servo_ws/install/servo_control/share/servo_control/cmake/ament_cmake_export_dependencies-extras.cmake
+[19.439s] -- Installing: /home/kimani21/servo_ws/install/servo_control/share/servo_control/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[19.440s] -- Installing: /home/kimani21/servo_ws/install/servo_control/share/servo_control/cmake/servo_controlConfig.cmake
+[19.440s] -- Installing: /home/kimani21/servo_ws/install/servo_control/share/servo_control/cmake/servo_controlConfig-version.cmake
+[19.440s] -- Installing: /home/kimani21/servo_ws/install/servo_control/share/servo_control/package.xml
+[19.444s] Invoked command in '/home/kimani21/servo_ws/build/servo_control' returned '0': AMENT_PREFIX_PATH=/home/kimani21/servo_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kimani21/servo_ws/install/serial:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/kimani21/servo_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/kimani21/servo_ws/build/servo_control

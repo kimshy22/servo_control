@@ -1,0 +1,4 @@
+Invoking command in '/home/kimani21/servo_ws/build/servo_control': /usr/bin/cmake --build /home/kimani21/servo_ws/build/servo_control -- -j8 -l8
+Invoked command in '/home/kimani21/servo_ws/build/servo_control' returned '0': /usr/bin/cmake --build /home/kimani21/servo_ws/build/servo_control -- -j8 -l8
+Invoking command in '/home/kimani21/servo_ws/build/servo_control': /usr/bin/cmake --install /home/kimani21/servo_ws/build/servo_control
+Invoked command in '/home/kimani21/servo_ws/build/servo_control' returned '0': /usr/bin/cmake --install /home/kimani21/servo_ws/build/servo_control

@@ -1,0 +1,219 @@
+[0.558s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.558s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7a181e7c5b70>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7a181e7c5690>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7a181e7c5690>>)
+[1.140s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.141s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.141s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.141s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.141s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.141s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.141s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/kimani21/servo_ws'
+[1.141s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.141s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.141s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.141s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.141s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.141s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.166s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.166s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.166s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.167s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.167s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.167s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.167s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.167s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.167s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.167s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.167s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.167s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.167s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.167s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.167s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.167s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.167s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.167s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.168s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['ignore', 'ignore_ament_install']
+[1.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ignore'
+[1.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ignore_ament_install'
+[1.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['colcon_pkg']
+[1.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'colcon_pkg'
+[1.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['colcon_meta']
+[1.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'colcon_meta'
+[1.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['ros']
+[1.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ros'
+[1.174s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial' with type 'ros.ament_cmake' and name 'serial'
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_control) by extensions ['ignore', 'ignore_ament_install']
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_control) by extension 'ignore'
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_control) by extension 'ignore_ament_install'
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_control) by extensions ['colcon_pkg']
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_control) by extension 'colcon_pkg'
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_control) by extensions ['colcon_meta']
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_control) by extension 'colcon_meta'
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_control) by extensions ['ros']
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_control) by extension 'ros'
+[1.177s] DEBUG:colcon.colcon_core.package_identification:Package 'src/servo_control' with type 'ros.catkin' and name 'servo_control'
+[1.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.244s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.244s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.248s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/kimani21/servo_ws/install/servo_control' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[-1.218s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/kimani21/servo_ws/install/servo_control' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[-1.216s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/kimani21/servo_ws/install
+[-1.212s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 39 installed packages in /home/kimani21/nav2_ws/install
+[-1.210s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/kimani21/dojo_robotics_2025/install
+[-1.209s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/kimani21/dojo_robotics_2025/src/install
+[-1.204s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 425 installed packages in /opt/ros/humble
+[-1.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[-0.972s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_args' from command line to 'None'
+[-0.972s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target' from command line to 'None'
+[-0.972s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[-0.972s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_cache' from command line to 'False'
+[-0.972s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_first' from command line to 'False'
+[-0.972s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_force_configure' from command line to 'False'
+[-0.972s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'ament_cmake_args' from command line to 'None'
+[-0.972s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_cmake_args' from command line to 'None'
+[-0.972s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[-0.972s] DEBUG:colcon.colcon_core.verb:Building package 'serial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kimani21/servo_ws/build/serial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kimani21/servo_ws/install/serial', 'merge_install': False, 'path': '/home/kimani21/servo_ws/src/serial', 'symlink_install': True, 'test_result_base': None}
+[-0.971s] Level 5:colcon.colcon_core.verb:set package 'servo_control' build argument 'cmake_args' from command line to 'None'
+[-0.971s] Level 5:colcon.colcon_core.verb:set package 'servo_control' build argument 'cmake_target' from command line to 'None'
+[-0.971s] Level 5:colcon.colcon_core.verb:set package 'servo_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[-0.971s] Level 5:colcon.colcon_core.verb:set package 'servo_control' build argument 'cmake_clean_cache' from command line to 'False'
+[-0.971s] Level 5:colcon.colcon_core.verb:set package 'servo_control' build argument 'cmake_clean_first' from command line to 'False'
+[-0.971s] Level 5:colcon.colcon_core.verb:set package 'servo_control' build argument 'cmake_force_configure' from command line to 'False'
+[-0.971s] Level 5:colcon.colcon_core.verb:set package 'servo_control' build argument 'ament_cmake_args' from command line to 'None'
+[-0.971s] Level 5:colcon.colcon_core.verb:set package 'servo_control' build argument 'catkin_cmake_args' from command line to 'None'
+[-0.971s] Level 5:colcon.colcon_core.verb:set package 'servo_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[-0.971s] DEBUG:colcon.colcon_core.verb:Building package 'servo_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kimani21/servo_ws/build/servo_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kimani21/servo_ws/install/servo_control', 'merge_install': False, 'path': '/home/kimani21/servo_ws/src/servo_control', 'symlink_install': True, 'test_result_base': None}
+[-0.971s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[-0.970s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[-0.969s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kimani21/servo_ws/src/serial' with build type 'ament_cmake'
+[-0.969s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kimani21/servo_ws/src/serial'
+[-0.960s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[-0.959s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[-0.959s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[-0.934s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kimani21/servo_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kimani21/nav2_ws/install/nav2_simple_commander:/home/kimani21/dojo_robotics_2025/install/my_robot_package:/home/kimani21/dojo_robotics_2025/src/install/my_robot_package:/opt/ros/humble /usr/bin/cmake /home/kimani21/servo_ws/src/serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kimani21/servo_ws/install/serial
+[1.938s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kimani21/servo_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kimani21/nav2_ws/install/nav2_simple_commander:/home/kimani21/dojo_robotics_2025/install/my_robot_package:/home/kimani21/dojo_robotics_2025/src/install/my_robot_package:/opt/ros/humble /usr/bin/cmake /home/kimani21/servo_ws/src/serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kimani21/servo_ws/install/serial
+[1.939s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kimani21/servo_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kimani21/nav2_ws/install/nav2_simple_commander:/home/kimani21/dojo_robotics_2025/install/my_robot_package:/home/kimani21/dojo_robotics_2025/src/install/my_robot_package:/opt/ros/humble /usr/bin/cmake --build /home/kimani21/servo_ws/build/serial -- -j8 -l8
+[3.060s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kimani21/servo_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kimani21/nav2_ws/install/nav2_simple_commander:/home/kimani21/dojo_robotics_2025/install/my_robot_package:/home/kimani21/dojo_robotics_2025/src/install/my_robot_package:/opt/ros/humble /usr/bin/cmake --build /home/kimani21/servo_ws/build/serial -- -j8 -l8
+[3.084s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kimani21/servo_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kimani21/nav2_ws/install/nav2_simple_commander:/home/kimani21/dojo_robotics_2025/install/my_robot_package:/home/kimani21/dojo_robotics_2025/src/install/my_robot_package:/opt/ros/humble /usr/bin/cmake --install /home/kimani21/servo_ws/build/serial
+[3.546s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[3.547s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kimani21/servo_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kimani21/nav2_ws/install/nav2_simple_commander:/home/kimani21/dojo_robotics_2025/install/my_robot_package:/home/kimani21/dojo_robotics_2025/src/install/my_robot_package:/opt/ros/humble /usr/bin/cmake --install /home/kimani21/servo_ws/build/serial
+[3.564s] Level 1:colcon.colcon_core.environment:checking '/home/kimani21/servo_ws/install/serial' for CMake module files
+[3.565s] Level 1:colcon.colcon_core.environment:checking '/home/kimani21/servo_ws/install/serial' for CMake config files
+[3.565s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[3.566s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimani21/servo_ws/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[3.567s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kimani21/servo_ws/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[3.568s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimani21/servo_ws/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[3.570s] Level 1:colcon.colcon_core.environment:checking '/home/kimani21/servo_ws/install/serial/lib'
+[3.571s] Level 1:colcon.colcon_core.environment:checking '/home/kimani21/servo_ws/install/serial/bin'
+[3.571s] Level 1:colcon.colcon_core.environment:checking '/home/kimani21/servo_ws/install/serial/lib/pkgconfig/serial.pc'
+[3.571s] Level 1:colcon.colcon_core.environment:checking '/home/kimani21/servo_ws/install/serial/lib/python3.10/site-packages'
+[3.571s] Level 1:colcon.colcon_core.environment:checking '/home/kimani21/servo_ws/install/serial/bin'
+[3.572s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimani21/servo_ws/install/serial/share/serial/package.ps1'
+[3.574s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kimani21/servo_ws/install/serial/share/serial/package.dsv'
+[3.575s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimani21/servo_ws/install/serial/share/serial/package.sh'
+[3.576s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimani21/servo_ws/install/serial/share/serial/package.bash'
+[3.578s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimani21/servo_ws/install/serial/share/serial/package.zsh'
+[3.579s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kimani21/servo_ws/install/serial/share/colcon-core/packages/serial)
+[3.581s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[3.581s] Level 1:colcon.colcon_core.environment:checking '/home/kimani21/servo_ws/install/serial' for CMake module files
+[3.582s] Level 1:colcon.colcon_core.environment:checking '/home/kimani21/servo_ws/install/serial' for CMake config files
+[3.583s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[3.583s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimani21/servo_ws/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[3.583s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kimani21/servo_ws/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[3.584s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimani21/servo_ws/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[3.584s] Level 1:colcon.colcon_core.environment:checking '/home/kimani21/servo_ws/install/serial/lib'
+[3.584s] Level 1:colcon.colcon_core.environment:checking '/home/kimani21/servo_ws/install/serial/bin'
+[3.585s] Level 1:colcon.colcon_core.environment:checking '/home/kimani21/servo_ws/install/serial/lib/pkgconfig/serial.pc'
+[3.585s] Level 1:colcon.colcon_core.environment:checking '/home/kimani21/servo_ws/install/serial/lib/python3.10/site-packages'
+[3.585s] Level 1:colcon.colcon_core.environment:checking '/home/kimani21/servo_ws/install/serial/bin'
+[3.585s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimani21/servo_ws/install/serial/share/serial/package.ps1'
+[3.586s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kimani21/servo_ws/install/serial/share/serial/package.dsv'
+[3.587s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimani21/servo_ws/install/serial/share/serial/package.sh'
+[3.587s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimani21/servo_ws/install/serial/share/serial/package.bash'
+[3.588s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimani21/servo_ws/install/serial/share/serial/package.zsh'
+[3.588s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kimani21/servo_ws/install/serial/share/colcon-core/packages/serial)
+[3.589s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/kimani21/servo_ws/src/servo_control' with build type 'catkin'
+[3.589s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kimani21/servo_ws/src/servo_control'
+[3.589s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.590s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.684s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kimani21/servo_ws/build/servo_control': AMENT_PREFIX_PATH=/home/kimani21/servo_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kimani21/servo_ws/install/serial:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/kimani21/servo_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/kimani21/servo_ws/src/servo_control -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/kimani21/servo_ws/install/servo_control
+[15.272s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kimani21/servo_ws/build/servo_control' returned '0': AMENT_PREFIX_PATH=/home/kimani21/servo_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kimani21/servo_ws/install/serial:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/kimani21/servo_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/kimani21/servo_ws/src/servo_control -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/kimani21/servo_ws/install/servo_control
+[15.275s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kimani21/servo_ws/build/servo_control': AMENT_PREFIX_PATH=/home/kimani21/servo_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kimani21/servo_ws/install/serial:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/kimani21/servo_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/kimani21/servo_ws/build/servo_control -- -j8 -l8
+[22.898s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kimani21/servo_ws/build/servo_control' returned '0': AMENT_PREFIX_PATH=/home/kimani21/servo_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kimani21/servo_ws/install/serial:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/kimani21/servo_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/kimani21/servo_ws/build/servo_control -- -j8 -l8
+[22.902s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kimani21/servo_ws/build/servo_control': AMENT_PREFIX_PATH=/home/kimani21/servo_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kimani21/servo_ws/install/serial:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/kimani21/servo_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/kimani21/servo_ws/build/servo_control
+[23.035s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kimani21/servo_ws/build/servo_control' returned '0': AMENT_PREFIX_PATH=/home/kimani21/servo_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kimani21/servo_ws/install/serial:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/kimani21/servo_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/kimani21/servo_ws/build/servo_control
+[23.036s] Level 1:colcon.colcon_core.shell:create_environment_hook('servo_control', 'ros_package_path')
+[23.036s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimani21/servo_ws/install/servo_control/share/servo_control/hook/ros_package_path.ps1'
+[23.037s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kimani21/servo_ws/install/servo_control/share/servo_control/hook/ros_package_path.dsv'
+[23.038s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimani21/servo_ws/install/servo_control/share/servo_control/hook/ros_package_path.sh'
+[23.039s] Level 1:colcon.colcon_ros.task.catkin:checking '/home/kimani21/servo_ws/install/servo_control/local/lib/python3.10/dist-packages'
+[23.039s] Level 1:colcon.colcon_core.shell:create_environment_hook('servo_control', 'catkin_pythonpath')
+[23.039s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimani21/servo_ws/install/servo_control/share/servo_control/hook/catkin_pythonpath.ps1'
+[23.039s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kimani21/servo_ws/install/servo_control/share/servo_control/hook/catkin_pythonpath.dsv'
+[23.040s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimani21/servo_ws/install/servo_control/share/servo_control/hook/catkin_pythonpath.sh'
+[23.040s] Level 1:colcon.colcon_core.shell:create_environment_hook('servo_control', 'pkg_config_path')
+[23.041s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimani21/servo_ws/install/servo_control/share/servo_control/hook/pkg_config_path.ps1'
+[23.041s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kimani21/servo_ws/install/servo_control/share/servo_control/hook/pkg_config_path.dsv'
+[23.041s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimani21/servo_ws/install/servo_control/share/servo_control/hook/pkg_config_path.sh'
+[23.047s] Level 1:colcon.colcon_core.shell:create_environment_hook('servo_control', 'pkg_config_path_multiarch')
+[23.047s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimani21/servo_ws/install/servo_control/share/servo_control/hook/pkg_config_path_multiarch.ps1'
+[23.048s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kimani21/servo_ws/install/servo_control/share/servo_control/hook/pkg_config_path_multiarch.dsv'
+[23.048s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimani21/servo_ws/install/servo_control/share/servo_control/hook/pkg_config_path_multiarch.sh'
+[23.049s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(servo_control)
+[23.050s] Level 1:colcon.colcon_core.environment:checking '/home/kimani21/servo_ws/install/servo_control' for CMake module files
+[23.051s] Level 1:colcon.colcon_core.environment:checking '/home/kimani21/servo_ws/install/servo_control' for CMake config files
+[23.051s] Level 1:colcon.colcon_core.shell:create_environment_hook('servo_control', 'cmake_prefix_path')
+[23.052s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimani21/servo_ws/install/servo_control/share/servo_control/hook/cmake_prefix_path.ps1'
+[23.052s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kimani21/servo_ws/install/servo_control/share/servo_control/hook/cmake_prefix_path.dsv'
+[23.053s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimani21/servo_ws/install/servo_control/share/servo_control/hook/cmake_prefix_path.sh'
+[23.053s] Level 1:colcon.colcon_core.environment:checking '/home/kimani21/servo_ws/install/servo_control/lib'
+[23.054s] Level 1:colcon.colcon_core.shell:create_environment_hook('servo_control', 'ld_library_path_lib')
+[23.054s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimani21/servo_ws/install/servo_control/share/servo_control/hook/ld_library_path_lib.ps1'
+[23.054s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kimani21/servo_ws/install/servo_control/share/servo_control/hook/ld_library_path_lib.dsv'
+[23.055s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kimani21/servo_ws/install/servo_control/share/servo_control/hook/ld_library_path_lib.sh'
+[23.055s] Level 1:colcon.colcon_core.environment:checking '/home/kimani21/servo_ws/install/servo_control/bin'
+[23.056s] Level 1:colcon.colcon_core.environment:checking '/home/kimani21/servo_ws/install/servo_control/lib/pkgconfig/servo_control.pc'
+[23.056s] Level 1:colcon.colcon_core.environment:checking '/home/kimani21/servo_ws/install/servo_control/lib/python3.10/site-packages'
+[23.056s] Level 1:colcon.colcon_core.environment:checking '/home/kimani21/servo_ws/install/servo_control/bin'
+[23.057s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimani21/servo_ws/install/servo_control/share/servo_control/package.ps1'
+[23.058s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kimani21/servo_ws/install/servo_control/share/servo_control/package.dsv'
+[23.059s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimani21/servo_ws/install/servo_control/share/servo_control/package.sh'
+[23.060s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimani21/servo_ws/install/servo_control/share/servo_control/package.bash'
+[23.060s] INFO:colcon.colcon_core.shell:Creating package script '/home/kimani21/servo_ws/install/servo_control/share/servo_control/package.zsh'
+[23.060s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kimani21/servo_ws/install/servo_control/share/colcon-core/packages/servo_control)
+[23.062s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[23.062s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[23.062s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[23.062s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[23.144s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[23.144s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[23.144s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[23.145s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[23.154s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[23.154s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[23.154s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kimani21/servo_ws/install/local_setup.ps1'
+[23.156s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kimani21/servo_ws/install/_local_setup_util_ps1.py'
+[23.158s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kimani21/servo_ws/install/setup.ps1'
+[23.162s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kimani21/servo_ws/install/local_setup.sh'
+[23.163s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kimani21/servo_ws/install/_local_setup_util_sh.py'
+[23.164s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kimani21/servo_ws/install/setup.sh'
+[23.169s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kimani21/servo_ws/install/local_setup.bash'
+[23.170s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kimani21/servo_ws/install/setup.bash'
+[23.175s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kimani21/servo_ws/install/local_setup.zsh'
+[23.176s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kimani21/servo_ws/install/setup.zsh'

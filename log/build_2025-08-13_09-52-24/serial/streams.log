@@ -1,0 +1,30 @@
+[0.036s] Invoking command in '/home/kimani21/servo_ws/build/serial': CMAKE_PREFIX_PATH=/home/kimani21/nav2_ws/install/nav2_simple_commander:/home/kimani21/dojo_robotics_2025/install/my_robot_package:/home/kimani21/dojo_robotics_2025/src/install/my_robot_package:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/kimani21/servo_ws/build/serial -- -j8 -l8
+[0.222s] [35m[1mConsolidate compiler generated dependencies of target serial[0m
+[0.255s] [100%] Built target serial
+[0.278s] Invoked command in '/home/kimani21/servo_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=/home/kimani21/nav2_ws/install/nav2_simple_commander:/home/kimani21/dojo_robotics_2025/install/my_robot_package:/home/kimani21/dojo_robotics_2025/src/install/my_robot_package:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/kimani21/servo_ws/build/serial -- -j8 -l8
+[0.301s] Invoking command in '/home/kimani21/servo_ws/build/serial': CMAKE_PREFIX_PATH=/home/kimani21/nav2_ws/install/nav2_simple_commander:/home/kimani21/dojo_robotics_2025/install/my_robot_package:/home/kimani21/dojo_robotics_2025/src/install/my_robot_package:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/kimani21/servo_ws/build/serial
+[0.318s] -- Install configuration: ""
+[0.320s] -- Execute custom install script
+[0.321s] -- Up-to-date symlink: /home/kimani21/servo_ws/install/serial/share/serial/environment/library_path.sh
+[0.322s] -- Up-to-date symlink: /home/kimani21/servo_ws/install/serial/share/serial/environment/library_path.dsv
+[0.323s] -- Up-to-date symlink: /home/kimani21/servo_ws/install/serial/lib/libserial.a
+[0.323s] -- Up-to-date symlink: /home/kimani21/servo_ws/install/serial/include/serial/serial.h
+[0.324s] -- Up-to-date symlink: /home/kimani21/servo_ws/install/serial/include/serial/v8stdint.h
+[0.324s] -- Up-to-date symlink: /home/kimani21/servo_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[0.325s] -- Up-to-date symlink: /home/kimani21/servo_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[0.325s] -- Up-to-date symlink: /home/kimani21/servo_ws/install/serial/share/serial/environment/ament_prefix_path.sh
+[0.326s] -- Up-to-date symlink: /home/kimani21/servo_ws/install/serial/share/serial/environment/ament_prefix_path.dsv
+[0.327s] -- Up-to-date symlink: /home/kimani21/servo_ws/install/serial/share/serial/environment/path.sh
+[0.327s] -- Up-to-date symlink: /home/kimani21/servo_ws/install/serial/share/serial/environment/path.dsv
+[0.328s] -- Up-to-date symlink: /home/kimani21/servo_ws/install/serial/share/serial/local_setup.bash
+[0.329s] -- Up-to-date symlink: /home/kimani21/servo_ws/install/serial/share/serial/local_setup.sh
+[0.329s] -- Up-to-date symlink: /home/kimani21/servo_ws/install/serial/share/serial/local_setup.zsh
+[0.330s] -- Up-to-date symlink: /home/kimani21/servo_ws/install/serial/share/serial/local_setup.dsv
+[0.330s] -- Symlinking: /home/kimani21/servo_ws/install/serial/share/serial/package.dsv
+[0.352s] -- Up-to-date symlink: /home/kimani21/servo_ws/install/serial/share/ament_index/resource_index/packages/serial
+[0.353s] -- Up-to-date symlink: /home/kimani21/servo_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.354s] -- Up-to-date symlink: /home/kimani21/servo_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[0.355s] -- Up-to-date symlink: /home/kimani21/servo_ws/install/serial/share/serial/cmake/serialConfig.cmake
+[0.355s] -- Up-to-date symlink: /home/kimani21/servo_ws/install/serial/share/serial/cmake/serialConfig-version.cmake
+[0.355s] -- Up-to-date symlink: /home/kimani21/servo_ws/install/serial/share/serial/package.xml
+[0.358s] Invoked command in '/home/kimani21/servo_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=/home/kimani21/nav2_ws/install/nav2_simple_commander:/home/kimani21/dojo_robotics_2025/install/my_robot_package:/home/kimani21/dojo_robotics_2025/src/install/my_robot_package:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/kimani21/servo_ws/build/serial

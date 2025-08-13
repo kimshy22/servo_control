@@ -1,0 +1,6 @@
+{
+  "package_name": "servo_control",
+  "non_idl_tuples": [
+    "/home/kimani21/servo_ws/src/servo_control:srv/SetServoAngle.srv"
+  ]
+}

@@ -1,8 +1,0 @@
-setup.py
-servo_control/__init__.py
-servo_control.egg-info/PKG-INFO
-servo_control.egg-info/SOURCES.txt
-servo_control.egg-info/dependency_links.txt
-servo_control.egg-info/top_level.txt
-servo_control/srv/__init__.py
-servo_control/srv/_set_servo_angle.py
